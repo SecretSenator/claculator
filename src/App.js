@@ -16,7 +16,7 @@ function App() {
         <Navbar></Navbar>
         <Route path='/' exact component={Home}></Route>
         <Route path='/claculator/home' exact component={Home}></Route>
-        <Route path='/claculator' exact component={Home}}></Route>
+        <Route path='/claculator' exact component={Home}></Route>
         <Route path='/claculator/add' exact component={Addition}></Route>
         <Route path='/claculator/subtract' exact component={Subtraction}></Route>
         <Route path='/claculator/multiply' exact component={Multiplication}></Route>
